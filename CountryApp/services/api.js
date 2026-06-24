@@ -2,7 +2,7 @@ import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export const API = axios.create({
-  baseURL: "http://127.0.0.1:8000/api",
+baseURL: "https://world-bank-country-dashboard-1.onrender.com/api/",
 });
 
 API.interceptors.request.use(

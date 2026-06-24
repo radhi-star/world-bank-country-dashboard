@@ -20,7 +20,7 @@ export default function LoginScreen({ navigation }) {
     try {
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/token/",
+      "https://world-bank-country-dashboard-1.onrender.com/api/token/",
         {
           username,
           password,
